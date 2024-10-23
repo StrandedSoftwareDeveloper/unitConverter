@@ -1,0 +1,22 @@
+Load file into array of arrays
+    Open file ✔
+    For each line:
+        If it starts with whitespace, it's a unit: ✔
+            Find the first non-whitespace ✔
+            Find the '=' ✔
+            Everything inbetween is the name of the unit ✔
+            Assert '*' ✔
+            Find the '+' ✔
+            Everything between the '*' and the '+' is the coefficient, parse as a double ✔
+            The rest of the line after the '+' is the bias, parse as a double ✔
+            Append to the current category ✔
+        Else it's a category: ✔
+            The entire line (without the newline) is the name, append to the array of categories ✔
+
+Make "scrollableButtonList" struct
+Make a scrollableButtonList of the outer array
+When a category is selected:
+    Make a scrollableButtonList of the corresponding inner array
+    When a unit is selected:
+        Show a text box for the number and a scrollableButtonList for each unit to convert to
+        Future: When a unit is selected, switch to that unit

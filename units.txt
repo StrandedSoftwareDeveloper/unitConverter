@@ -1,0 +1,7 @@
+Distance
+    Meters=*1+0
+    Feet=*3.28084+0
+Temperature
+    Degrees Celsius=*1+0
+    Degrees Fahrenheit=*1.8+32
+More Categories
